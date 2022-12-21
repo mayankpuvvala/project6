@@ -1,0 +1,47 @@
+
+body{
+    margin: 20px;
+    background-color: rgb(85, 63, 63);
+}
+.box1,.box2,.box3{
+    padding: 20px 20px;
+    margin: 20px;
+    width: 20%;
+    height: 220px;
+    background-attachment: fixed;
+    background-size: contain;
+    
+    border-radius: 9px;
+
+}
+.box1{
+    background-image: url('hotair.jpg');
+    background-color: yellowgreen;
+}
+.box2{
+    color: bisque;
+    background-image: url('eren.jpg');
+    background-color: peru;
+}
+.box3{
+    color: blueviolet;
+    background-image: url('levi.jpg');
+}
+.subitem1,.subitem2,.subitem3{
+
+    display: inline;
+    background-color: gray;
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+    color: rgba(250, 235, 215, 0.863);
+    width: 130px;
+    flex-direction: row;
+    height: 80px;
+    
+
+}
+.box-set{
+    display: flex;
+    flex-wrap: wrap;
+}
